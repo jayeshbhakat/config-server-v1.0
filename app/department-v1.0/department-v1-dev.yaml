@@ -1,12 +1,3 @@
-spring:
-  application:
-    name: department-v1
-  profiles:
-    active: dev
-  config:
-    import: optional:configserver:http://localhost:8888
-    name: department-v1,common
-
 eureka:
   client:
     service-url:
